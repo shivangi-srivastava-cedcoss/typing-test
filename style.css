@@ -1,3 +1,24 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6cc9ae; 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0890ab; 
+  }
 body
 {
     margin:0;
@@ -55,7 +76,7 @@ body
 }
 .span-text
 {
-    background: #e2e2e2;
+    background: #e8e8e8;
     border: 1px;
     text-align: justify;
     padding: 3%;
@@ -103,7 +124,7 @@ body
 .correct
 {
     color:white;
-    background:#20da20c7;
+    background: #0890ab;
     font-weight:bold;
 }
 .incorrect
@@ -127,7 +148,11 @@ body
     }
     .main
     {
-        padding: 7% 13% 7% 13%;
+        padding: 7% 5% 7% 5%;
+    }
+    #txtInput 
+    {
+        width: 94.7%;
     }
     #txtOutput
     {
