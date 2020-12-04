@@ -76,7 +76,7 @@ body
 }
 .span-text
 {
-    background: #e8e8e8;
+    background: #f1f1f1;
     border: 1px;
     text-align: justify;
     padding: 3%;
@@ -112,14 +112,13 @@ body
 {
     border: 1px;
     color: #fcfefe;
-    background: #6cc9ae;
+    background: #0890ab;
     font-size: 1em;
     font-weight: bold;
     padding: 1% 4%;
     float: right;
     outline: none;
     height: 7vh;
-    box-shadow:0 0 0 #0890ab;
 }
 .correct
 {
@@ -138,13 +137,14 @@ body
     .header
     {
         font-size: 1.5em;
+        height: 12vh;
     }
     .head
     {
-        padding-left: 13%;
-        padding-right: 13%;
+        padding-left: 7%;
+        padding-right: 7%;
         font-size: 0.9em;
-        height: 24vh;
+        height: 19vh;
     }
     .main
     {
