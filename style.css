@@ -89,7 +89,7 @@ body
 }
 .btnStartOver
 {
-    border: 1px solid #0890ab;
+    border: 1px;
     color: #fcfefe;
     background: #6cc9ae;
     font-size: 1em;
