@@ -59,6 +59,7 @@ function compareStrings()
         {
             charSpan.classList.remove('correct');
             charSpan.classList.add('incorrect');
+            i++;
         }
     });
     if(inputString.value===outputString1)
