@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body onload="outputString()">
+    <header class="header">
+        Test Your Typing Speed
+    </header>
+    <div class="head">
+        This is a typing test. Your goal is to duplicate the provided text,
+        EXACTLY, in the field below. The timer starts when you start typing,
+        and only stops when you match this exactly. Good Luck!
+    </div>
+    <div class="main">
+        <div class="span-text">
+            <span id="txtOutput" name="txtOutput" value="The text to type." oncopy="return false" oncut="return false"></span>
+        </div>
+        <!-- <textarea name="txtOutput" id="txtOutput" value="The text to type." oncopy="return false" oncut="return false" disabled></textarea> -->
+        <textarea id="txtInput" placeholder="The clock starts when you start typing..." oncopy="return false" oncut="return false" onpaste="return false" onkeyup="compareStrings()"></textarea>
+        <span class="timer">
+            <label id="hours"></label> : 
+            <label id="minutes"></label> : 
+            <label id="seconds"></label>
+        </span>
+        <input type="button" value="Start over" onclick="StartOver()" class="btnStartOver">
+    </div>
+    <footer class="footer">
+        <!-- <button id="myBtn">Open Modal</button> -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <p>You have successfully completed the test with the score of <label id="wpm"></label> WPM.</p>
+                <span class="close">&times;</span>
+            </div>
+        </div>
+    </footer>
+    <script src="modal.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
