@@ -74,27 +74,31 @@ body
 {
     width: 96.7%;
     height: 21vh;
-    border: 4px solid #848484;
+    border: 4px solid #0890aba8;
     border-radius: 7px;
     font-size: 1.2em;
+    box-shadow: inset 0px 0px 10px 5px #8fc2cc;
 }
 .timer
 {
     font-size: 2.4em;
     font-weight:bold;
     float: left;
+    color: #6cc9ae;
+    text-shadow: 4px 4px 4px black;
 }
 .btnStartOver
 {
-    border: 4px solid #0890ab;
-    color: #0890ab;
-    background: transparent;
-    font-size: 0.9em;
+    border: 1px solid #0890ab;
+    color: #fcfefe;
+    background: #6cc9ae;
+    font-size: 1em;
     font-weight: bold;
-    padding: 1% 3%;
+    padding: 1% 4%;
     float: right;
     outline: none;
     height: 7vh;
+    box-shadow:0 0 0 #0890ab;
 }
 .correct
 {
